@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+
+.navBar{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.base{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   padding: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.baseTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 2rem;  
+    
+}
+
+
+.tituloTema{
+    width: 75rem;
+    border: solid greenyellow 0.2rem;
+    border-radius: 1rem;
+    text-align: center; 
+    font-size: 3rem; font-family: Arial, Helvetica, sans-serif;
+    color: white; box-shadow: 0px 0px 10px greenyellow;
+    padding: 0.5rem;
+}
+
+.cards{
+   
+    width: 30rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px greenyellow;
+    
+}
+
+.Titulo{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.tituloStyle{
+    padding: 1rem;
+    background-color: greenyellow;
+    border-radius: 1rem
+}
+
+.conteudo{
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
