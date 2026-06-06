@@ -17,13 +17,7 @@ body{
 
 }
 
-.baseTitulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    padding: 2rem;  
-    
-}
+
 
 
 .tituloTema{
@@ -52,14 +46,36 @@ body{
 }
 
 .tituloStyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     background-color: greenyellow;
-    border-radius: 1rem
+    border-radius: 1rem;
+
+    
 }
 
 .conteudo{
     font-size: 1.7rem;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+.numeracao{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    height: 0.3rem;
+    width: 0.3rem;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: black;
+    color: greenyellow;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
