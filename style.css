@@ -21,8 +21,8 @@ body{
 
 
 .tituloTema{
-    width: 75rem;
-    border: solid greenyellow 0.2rem;
+    width: 100%;
+    border:0.22rem solid greenyellow;
     border-radius: 1rem;
     text-align: center; 
     font-size: 3rem; font-family: Arial, Helvetica, sans-serif;
